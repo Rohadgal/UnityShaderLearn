@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Holistic_MyFirstShader
+  m_Shader: {fileID: 4800000, guid: 3eb93b000f3f8e1438b3911affcb8616, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _myCube:
+        m_Texture: {fileID: 8900000, guid: a3de28b69b48944438c87668bd722ae7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDif:
+        m_Texture: {fileID: 2800000, guid: 0a4c8ae77f1097f4b8daffe8a48675d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myEmi:
+        m_Texture: {fileID: 2800000, guid: 33d2da637312ccf4ab3ba074e642b7b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myTex:
+        m_Texture: {fileID: 2800000, guid: 0bc18e17ae820ae4db6c11d230778ebe, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 1.88, y: 0.32}
+    m_Ints: []
+    m_Floats:
+    - _myFloat: 0.5
+    - _myRange: 1.19
+    m_Colors:
+    - _myColor: {r: 1, g: 0, b: 0.73434687, a: 1}
+    - _myEmission: {r: 0, g: 0.22222233, b: 1, a: 1}
+    - _myNormal: {r: 0.5283019, g: 0.39124244, b: 0.39124244, a: 1}
+    - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
