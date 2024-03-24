@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Holistic_MyFirstShader
-  m_Shader: {fileID: 4800000, guid: 3eb93b000f3f8e1438b3911affcb8616, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7e25f372eb464e9409accecd28cb96cb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,12 +23,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _myBump:
+        m_Texture: {fileID: 2800000, guid: e7ae7c7ed2a87a3448fae4e5c36b228d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _myCube:
         m_Texture: {fileID: 8900000, guid: a3de28b69b48944438c87668bd722ae7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myDif:
         m_Texture: {fileID: 2800000, guid: 0a4c8ae77f1097f4b8daffe8a48675d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuse:
+        m_Texture: {fileID: 2800000, guid: 21c119c3968fcd34d9d0462ce877a80e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myEmi:
@@ -43,6 +51,11 @@ Material:
     m_Floats:
     - _myFloat: 0.5
     - _myRange: 1.19
+    - _mySlider: 4.1
+    - _mySliderTex: 1.6
+    - _myX: 5.1
+    - _myY: 3.3
+    - _myZ: 4.8
     m_Colors:
     - _myColor: {r: 1, g: 0, b: 0.73434687, a: 1}
     - _myEmission: {r: 0, g: 0.22222233, b: 1, a: 1}
